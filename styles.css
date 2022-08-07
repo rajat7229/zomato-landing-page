@@ -422,7 +422,7 @@
 
 .section1_buttonContainer button {
     padding: 5px 5px;
-    width: 90px;
+    width: 95px;
     border: 1px solid gray;
     background-color: transparent;
     border-radius: 5px;
@@ -519,3 +519,91 @@
     }
   }
   
+  .container--locations{
+    margin: 10px auto;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap:10px;
+    flex-wrap: wrap;
+    
+}
+
+.container--locations h1{
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+.container--locations span{
+    font-weight:500;
+    font-size: 2.5rem;
+}
+.location--places{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:15px;
+}
+
+.location--places--area{
+    height: 70px;
+    width: 396px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 1px 1px 2px #888888;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.location--places--area h1{
+    font-weight: 300;
+    font-size:1.5rem;
+}
+.location--places--area h2{
+    font-weight:200;
+    font-size:1.25rem ;
+}
+
+.explore{
+    margin: 10px auto;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.explore h1{
+    font-weight:400;
+    font-size:2rem ;
+}
+
+
+.exolore--container{
+    margin: 10px auto;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.exolore--container h2{
+    cursor: pointer;
+    width: 100%;
+    outline: 0.5px grey solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:1.5rem;
+    font-weight: 300;
+    padding: 15px;
+    border-radius:5px;
+}
